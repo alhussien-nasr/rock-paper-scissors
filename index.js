@@ -22,12 +22,6 @@ const getComputerChoice = () => {
   }
 };
 
-const getHumanChoice = (e) => {
-  const HumanChoice = prompt("choise");
-  console.log(HumanChoice);
-  return HumanChoice;
-};
-
 paper.addEventListener("click", (e) => {
   HumanChoice = "paper";
   div.innerHTML = "paper";
